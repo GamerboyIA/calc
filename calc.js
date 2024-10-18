@@ -1,7 +1,5 @@
 function one() {
-
-let one = 1
- document.getElementById("screen").innerHTML += "1";
+  document.getElementById("screen").innerHTML += "1";
 }
 
 
@@ -62,3 +60,27 @@ function minus() {
 
 function equal() {
   document.getElementById("screen").innerHTML += "="
+}
+
+function divide() {
+  document.getElementById("screen").innerHTML += "/"
+}
+
+function decimal() {
+  document.getElementById("screen").innerHTML += "."
+}
+
+function times() {
+  document.getElementById("screen").innerHTML += "*"
+}
+
+function power() {
+  document.getElementById("screen").innerHTML += "^"
+}
+
+function clr() {
+  let screen = document.getElementById("screen");
+  let text = screen.innerHTML;
+  text = text.substring(0,text.length-1);
+  screen.innerHTML = text;
+}

@@ -9,51 +9,41 @@
 
 
 <div id="screen"></div>
-<button onClick="one();">1</button>
-<button id="b2" onClick="two();">2</button>
-<button id="b3" onClick="three();">3</button>
-<button id="b4" onClick="four();">4</button>
-<button id="b5" onClick="five();">5</button>
-<button id="b6" onClick="six();">6</button>
-<button id="b7" onClick="seven();">7</button>
-<button id="b8" onClick="eight();">8</button>
-<button id="b9" onClick="nine();">9</button>
-<button id="b0" onClick="zero();">0</button>
-<button id="b+" onClick="plus();">+</button>
-<button id="b-" onClick="minus();">-</button>
-<button id="b=" onClick="equal();">=</button>
 
 <br><br><br>
 
 <table>
 
 <tr id="r1">
-  <td id="r1c1">1</td>
-  <td id="r1c2">2</td>
-  <td id="r1c3">3</td>
+  <td id="r1c1" onClick="one();">1</td>
+  <td id="r1c2" onClick="two();">2</td>
+  <td id="r1c3" onClick="three();">3</td>
+  <td id="r1-2c3" rowspan="2" onClick="plus();">+</td>
 </tr>
 
 <tr id="r2">
-  <td id="r2c1">4</td>
-  <td id="r2c2">5</td>
-  <td id="r2c3">6</td>
+  <td id="r2c1" onClick="four();">4</td>
+  <td id="r2c2" onClick="five();">5</td>
+  <td id="r2c3" onClick="six();">6</td>
 </tr>
 
 <tr id="r3">
-  <td id="r3c1">7</td>
-  <td id="r3c2">8</td>
-  <td id="r3c3">9</td>
+  <td id="r3c1" onClick="seven();">7</td>
+  <td id="r3c2" onClick="eight();">8</td>
+  <td id="r3c3" onClick="nine();">9</td>
+  <td id="r3c4" onClick="power();">^</td>
 </tr>
 
 <tr id="r4">
-  <td id="r4c1">-</td>
-  <td id="r4c2">0</td>
-  <td id="r4c3">+</td>
+  <td id="r4c1" onClick="minus();">-</td>
+  <td id="r4c2" onClick="zero();">0</td>
+  <td id="r4c3" onClick="divide();">/</td>
+  <td id="r4c4" onClick="times();">*</td>
 </tr>
 <tr>
-  <td id="r5c1"></td>
-  <td id="r5c2">=</td>
-  <td id="r5c3"></td>
+  <td id="r5c1" onClick="decimal();">.</td>
+  <td id="r5c2" onClick="clr();">clr</td> 
+  <td colspan="2" id="r5c3-4" onClick="equal();">=</td>
 </tr>
 </table>
 </body>

@@ -5,10 +5,11 @@ body {
 #screen {
 margin: auto;
 border: 4px solid black;
-height: 40px;
+height: 60px;
 width: 400px;
 color: black;
-font-size: 10px;
+font-size: 30px;
+text-align: bottom;
 }
 
 button {
@@ -29,6 +30,3 @@ font-size: 100px;
 text-align: center;
 }
 
-#r5c1, #r5c3 {
-border: 1px solid transparent;
-}
