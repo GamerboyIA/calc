@@ -108,6 +108,6 @@ let screen = document.getElementById("screen");
 let expression = screen.innerHTML;
 expression = expression.replace("^", "**");
 let result = eval(expression);
-screen.innerHTML += " = <span style='font-size:80px;'>" + result + "</span>";
+screen.innerHTML += " = <span style='font-size:60px;'>" + result + "</span>";
 }
 
